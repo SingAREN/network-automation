@@ -1,0 +1,5 @@
+<routing-system xmlns="urn:brocade.com:mgmt:brocade-common-def">
+  <router>
+    <router-bgp xmlns="urn:brocade.com:mgmt:brocade-bgp"/>
+  </router>
+</routing-system>
