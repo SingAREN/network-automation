@@ -1,7 +1,6 @@
 import getpass
 from ncclient import manager
-from ncclient.xml_ import to_ele
-from lxml import etree
+
 
 secret_password = getpass.getpass(prompt="Enter device password: ")
 
