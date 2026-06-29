@@ -1,8 +1,3 @@
-from ncclient import manager
-from ncclient.xml_ import to_ele
-from lxml import etree
-
-
 def edit_config_from_payload(payload):
     return m.edit_config(target='running', config=payload)
     
